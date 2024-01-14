@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 public class Controller {
-    @GetMapping("/board/cicdTest")
+    @GetMapping("board/cicdTest")
     public ResponseEntity<?> test() {
         return ResponseEntity.ok().body(Map.of("msg","이거 왜 안 되냐?."));
     }
