@@ -10,7 +10,6 @@ import java.util.Map;
 public class Controller {
     @GetMapping("/board/cicdTest")
     public ResponseEntity<?> test() {
-
-        return ResponseEntity.ok().body(Map.of("msg","해당 데이터를 보냅니다."));
+        return ResponseEntity.ok().body(Map.of("msg","이거 왜 안 되냐?."));
     }
 }
