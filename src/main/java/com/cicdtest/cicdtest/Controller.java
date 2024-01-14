@@ -1,4 +1,4 @@
-package com.example.cicd;
+package com.cicdtest.cicdtest;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
