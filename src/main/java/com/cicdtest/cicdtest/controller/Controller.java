@@ -10,6 +10,6 @@ import java.util.Map;
 public class Controller {
     @GetMapping("/cicd")
     public ResponseEntity<?> test() {
-        return ResponseEntity.ok().body(Map.of("msg","답장 오나 확인해보기"));
+        return ResponseEntity.ok().body(Map.of("msg","재배포 된거임?"));
     }
 }
