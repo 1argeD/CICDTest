@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Controller {
-    @GetMapping("test")
+    @GetMapping("/cicdTest")
     public String test() {
         return "해당 문구를 출력합니다.";
     }
