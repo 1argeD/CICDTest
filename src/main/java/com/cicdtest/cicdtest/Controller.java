@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("/cicdTest")
     public String test() {
-        return "index1";
+        return "index2";
     }
 }
