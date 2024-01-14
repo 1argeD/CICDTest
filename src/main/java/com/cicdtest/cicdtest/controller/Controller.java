@@ -1,4 +1,4 @@
-package com.cicdtest.cicdtest;
+package com.cicdtest.cicdtest.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,8 +8,8 @@ import java.util.Map;
 
 @RestController
 public class Controller {
-    @GetMapping("board/cicdTest")
+    @GetMapping("/cicd")
     public ResponseEntity<?> test() {
-        return ResponseEntity.ok().body(Map.of("msg","이거 왜 안 되냐?."));
+        return ResponseEntity.ok().body(Map.of("msg","답장 오나 확인해보기"));
     }
 }
